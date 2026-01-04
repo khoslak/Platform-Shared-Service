@@ -1,0 +1,9 @@
+namespace: orders-dev
+
+resources:
+  - ../../base
+
+images:
+  - name: order-microservice-app
+    newName: docker.io/kunal1299/order-microservice-app
+    newTag: main-e2f8bb8
