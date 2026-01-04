@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/khoslak/Platform-Shared-Service.git
     targetRevision: main
-    path: apps/orders-microservice/overlays/dev
+    path: apps/order-microservice/overlays/dev
 
   destination:
     server: https://kubernetes.default.svc
