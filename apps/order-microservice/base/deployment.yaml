@@ -15,6 +15,6 @@ spec:
       serviceAccountName: orders-sa
       containers:
         - name: orders-service
-          image: order-microservice-app
+          image: docker.io/kunal1299/order-microservice-app
           ports:
             - containerPort: 8080
