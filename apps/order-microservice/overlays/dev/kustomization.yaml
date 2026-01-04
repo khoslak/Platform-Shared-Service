@@ -1,8 +1,10 @@
 namespace: orders-dev
 
 resources:
-  - ../../base
+- ../../base
 
 images:
-  - name: docker.io/kunal1299/order-microservice-app
-    newTag: main-e2f8bb8
+- name: docker.io/kunal1299/order-microservice-app
+  newTag: main-9f66ee1
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
